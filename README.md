@@ -89,7 +89,7 @@ The noraml Software Development Lifecycle calls for designers to start with defi
 
 This project aims to go counter to the normal SDLC, as follows:
 
-* First deife what good looks like for your Produciton environment. This means that you create the Produciton environment with High Availability, security, reliability, monitoring, and resiliency and sizing that is relatively reasonable.
+* First define what good looks like for your Produciton environment. This means that you create the Produciton environment with High Availability, security, reliability, monitoring, and resiliency and sizing that is relatively reasonable.
 * Then, you deploy a simple application on your Produciton environment, and test it directly in Produciton to break it and flush out all the issues to get Production environment resilient enough.
 * You work your way back to a UAT, SIT, and Dev envronment with diminishing capacity and establish the same rigor on testing and ironing out the kinks to ensure taht all your environments are highly resilient and mostly automated.
 * Finally, you get into desining and builiding your applicaiton focusing on functiality, not on devops and environment resiliency and monitorring.
